@@ -31,9 +31,6 @@ public class JDBC {
 			
 		}catch(SQLException e){
 			throw new DbException(e.getMessage());
-		}finally {
-			DB.closeStatement(st);
-			DB.closeConnection();
 		}
 	}
 	
