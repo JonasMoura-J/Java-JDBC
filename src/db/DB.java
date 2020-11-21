@@ -51,6 +51,7 @@ public class DB {
 		}
 	}
 	
+	//metodos para tratamento de exceções geradas pelo .close()
 	public static void closeStatement(Statement state) {
 		if(state!= null) {
 			try {
@@ -70,5 +71,4 @@ public class DB {
 			}
 		}
 	}
-	
 }
