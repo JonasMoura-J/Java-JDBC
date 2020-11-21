@@ -2,6 +2,7 @@ package application;
 
 import utils.InsertJDBC;
 import utils.SelectJDBC;
+import utils.UpdateJDBC;
 
 public class Main {
 
@@ -9,6 +10,8 @@ public class Main {
 		
 		//InsertJDBC.insert();
 		
-		SelectJDBC.select();
+		//SelectJDBC.select();
+		
+		UpdateJDBC.update();
 	}
 }
