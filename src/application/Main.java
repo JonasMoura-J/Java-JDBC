@@ -1,8 +1,6 @@
 package application;
 
-import utils.InsertJDBC;
-import utils.SelectJDBC;
-import utils.UpdateJDBC;
+import utils.JDBC;
 
 public class Main {
 
@@ -12,6 +10,8 @@ public class Main {
 		
 		//SelectJDBC.select();
 		
-		UpdateJDBC.update();
+		//UpdateJDBC.update();
+		
+		JDBC.delete();
 	}
 }
