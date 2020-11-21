@@ -10,7 +10,7 @@ import db.DbException;
 
 public class SelectJDBC {
 
-	public static void Select() {
+	public static void select() {
 		Connection con = null;
 		
 		Statement st = null;
